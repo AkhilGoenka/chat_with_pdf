@@ -1,4 +1,4 @@
-# chat_with_pdf
+# Chat with PDF
 An interactive Streamlit app that lets you **upload a PDF, index its contents, and ask questions**.  
 Answers are grounded in retrieved document chunks and include citations.  
 
