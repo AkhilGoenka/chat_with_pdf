@@ -53,6 +53,16 @@ chat-with-pdf/
 3. Currently supports single-PDF workflow only.
 4. Limited citation formatting.
 
+**Basic Evaluation Results**
+
+| Screenshot #  | Score  |
+| ------------- | ------ |
+|       1       |   4    |
+|       2       |   9    |
+|       3       |   10   |
+|       4       |   2    |
+|       5       |   9    |
+
 **LLM assistance** - https://chatgpt.com/share/68db13ed-68d4-8009-be8e-9e967ac6259e
 
 Appreciate your feedback!
