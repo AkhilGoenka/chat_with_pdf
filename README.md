@@ -26,6 +26,7 @@ streamlit run app.py
 5. Retrieval: Simple nearest neighbour, top 2 by default
 
 **Project Structure**
+```bash
 chat-with-pdf/
 ├── app.py                          # Main application entry point
 ├── requirements.txt                # Dependencies
@@ -36,17 +37,8 @@ chat-with-pdf/
 │   ├── vector_store.py             # Vector database operations
 │   └── qa.py                       # Question-answering engine
 └── storage/                        # Persistent data
+```
 
-chat-with-pdf/
-├── app.py                          # Main application entry point
-├── requirements.txt                # Dependencies
-├── modules/                        # Core business logic
-│   ├── embeddings.py               # Text embedding management
-│   ├── pdf_utils_and_chunking.py  # PDF processing & text splitting
-│   ├── retrieval.py                # Similarity search & chunk retrieval
-│   ├── vector_store.py             # Vector database operations
-│   └── qa.py                       # Question-answering engine
-└── storage/                        # Persistent data
 
 **Chunking Strategy**
 1. Uses RecursiveCharacterTextSplitter from LangChain-style logic.
