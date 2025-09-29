@@ -1,2 +1,2 @@
 # chat_with_pdf
-Allows you to chat with a PDF and get context based answers.
+Allows the user to upload a PDF and chat with it.
