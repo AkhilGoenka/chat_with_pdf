@@ -32,7 +32,7 @@ chat-with-pdf/
 ├── requirements.txt                # Dependencies
 ├── modules/                        # Core business logic
 │   ├── pdf_utils_and_chunking.py   # PDF processing & text splitting
-|   ├── embeddings.py               # Text embedding management
+│   ├── embeddings.py               # Text embedding management
 │   ├── vector_store.py             # Vector database operations
 │   ├── retrieval.py                # Similarity search & chunk retrieval
 │   └── qa.py                       # Question-answering engine
