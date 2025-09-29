@@ -37,6 +37,17 @@ chat-with-pdf/
 │   └── qa.py                       # Question-answering engine
 └── storage/                        # Persistent data
 
+chat-with-pdf/
+├── app.py                          # Main application entry point
+├── requirements.txt                # Dependencies
+├── modules/                        # Core business logic
+│   ├── embeddings.py               # Text embedding management
+│   ├── pdf_utils_and_chunking.py  # PDF processing & text splitting
+│   ├── retrieval.py                # Similarity search & chunk retrieval
+│   ├── vector_store.py             # Vector database operations
+│   └── qa.py                       # Question-answering engine
+└── storage/                        # Persistent data
+
 **Chunking Strategy**
 1. Uses RecursiveCharacterTextSplitter from LangChain-style logic.
 2. Configurable chunk size (default: 800 characters) with overlap (default: 100 characters).
