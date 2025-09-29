@@ -31,10 +31,10 @@ chat-with-pdf/
 ├── app.py                          # Main application entry point
 ├── requirements.txt                # Dependencies
 ├── modules/                        # Core business logic
-│   ├── embeddings.py               # Text embedding management
 │   ├── pdf_utils_and_chunking.py   # PDF processing & text splitting
-│   ├── retrieval.py                # Similarity search & chunk retrieval
+|   ├── embeddings.py               # Text embedding management
 │   ├── vector_store.py             # Vector database operations
+│   ├── retrieval.py                # Similarity search & chunk retrieval
 │   └── qa.py                       # Question-answering engine
 └── storage/                        # Persistent data
 ```
